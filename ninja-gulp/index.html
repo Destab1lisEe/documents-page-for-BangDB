@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<title>Page Name</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" type="image/svg+xml" href="img/fav.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?v=1.0.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+
+			<section class="about-product">
+				<div class="sidebar">
+					<div class="sidebar-menu">
+							<ul class="sidebar__menu">
+								<li class="sidebar__title">BangDB - Introduction</li>
+								<li><a href="section__1" class="header__menu-link anchor">Overview</a></li>
+								<li><a href="#" class="header__menu-link anchor">Feature details</a></li>
+								<li><a href="#" class="header__menu-link">Multi flavor</a></li>
+								<li><a href="#" class="header__menu-link">Language support</a></li>
+								<li><a href="#" class="header__menu-link">Platform support</a></li>
+								<li><a href="#" class="header__menu-link">License</a></li>
+							</ul>
+							<div class="icon-menu-sidebar">
+								<svg width="28" height="28" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0)">
+								<path d="M9.20634 33.0001C8.71831 33.0001 8.22832 32.8142 7.85442 32.4394C7.10769 31.6927 7.10769 30.4843 7.85442 29.7375L21.0927 16.5002L7.85442 3.26193C7.10769 2.5152 7.10769 1.30572 7.85442 0.560051C8.60116 -0.186684 9.81064 -0.186684 10.5572 0.560051L25.1454 15.1483C25.8921 15.895 25.8921 17.1045 25.1454 17.8501L10.5572 32.4392C10.1845 32.8131 9.69544 33.0001 9.20634 33.0001Z" fill="red"/>
+								</g>
+								<defs>
+								<clipPath id="clip0">
+								<rect width="33" height="33" fill="red"/>
+								</clipPath>
+								</defs>
+								</svg>
+							</div>
+					</div>	
+				</div>
+				<div class="about-main">
+					<div class="about-title">
+						<h3>BangDB - Introduction / Overview</h3>
+						<p>V2.0 (current) </p>
+						<div class="arrow"></div>
+					</div>
+					<div class="container">
+						<div class="about-content">
+
+							<div class="about-content-left">
+								<div class="about-content__title">
+									<h2>Overview</h2>
+								</div>
+								<p class="text">BangDB is more than just a NoSql database. It is designed to help
+									developers and users to solve problems with ease and speed and build powerful
+									applications by focusing on the use case and leaving the rest of the heavy lifting
+									to the database.</p>
+
+								<p class="text">BangDB is a NoSql data platform which allows developers to ingest any
+									kind of data into the system in streaming or batch manner, then analyze the data in
+									absolute and probabilistic ways in order to take some actions to optimize the
+									business operations. And do all these with very high speed to ensure continuous
+									intelligence delivery out of the platform. BangDB could be thought as a converge
+									data platform designed for the rapidly changing data trend and also to be resilient
+									to tolerate future changes and requirements. NoSql + AI + Stream is a way to sum up
+									the proposition.</p>
+
+								<p class="text">When it comes to deal with the fast-moving data from devices, logs,
+									clickstreams etc. we need to have streaming mechanism to easily ingest data.
+									Ingestion alone will not do much as we need to continuously analyze data as it
+									arrives. Therefore, we need to have timeseries data analysis system in place. It’s
+									important to note that bringing another streaming system and integrating it with the
+									NoSql will not be able to do the justice to both the “ease of use & faster time to
+									market” from developers’ perspective and “continuous intelligence with sub-sec
+									latency” from the use case requirement angle. Hence, we must have streaming
+									component natively integrated within the NoSql itself.</p>
+
+								<p class="text2">Similarly, more and more use cases are demanding predictive analysis
+									which in turn requires machine learning or AI component. Again, in order to be able
+									to train and predict on streaming data to achieve the goal of continuous
+									intelligence, we must have AI component natively integrated within the NoSql itself.
+								</p>
+								<div class="image-wrapper">
+									<img src="img/image1.png" alt="">
+								</div>
+
+								<p class="text2">Since we are talking about ingesting data from heterogenous set of
+									sources, therefore it will not be possible to deal with upfront structuring of the
+									data before ingestion can begin. At the same time, it will also be not prudent to
+									define all data types in a singular structure. Hence if on one hand we need to worry
+									about how to avoid structuring of the data then on the other hand we will need to
+									employ more than one structure within the system down the stream in order to
+									efficiently process, store and retrieve them. Therefore, multi modeling becomes
+									important which allows us to deal with different data types in the same database,
+									for ex; documents, timeseries, graph, opaque data etc. and at the same time it
+									liberates us from putting brittle requirement of upfront structuring of the data.
+								</p>
+
+								<div class="image-wrapper">
+									<img src="img/image2.png" alt="">
+								</div>
+
+								<p class="text2">Most of these data are coming from sensors, devices, logs, machines,
+									etc. which are hyper local in nature. In order to process these data, most of the
+									contemporary solutions or platforms/tools, take all these data into some cloud or
+									data center and then process it before taking any action. This method has many
+									problems and people have realized it already. While on one hand we have problem of
+									taking lots of data over the wire to the cloud or data centers, at the same time we
+									lose the opportunity to act quickly and locally even though the data and insights
+									were all there at the local level. Therefore it not only becomes inefficient, cost
+									intensive but at the same time it becomes very hard to enable the hyperlocal use
+									cases.
+									Hence, we need to have system which is connected from local to cloud or data center
+									with ability to process and analyze data at both local and cloud level. This
+									architecture demands embedded computing and analytics with store.</p>
+
+								<div class="image-wrapper">
+									<img src="img/image3.png" alt="">
+								</div>
+
+								<p class="text2">
+									Further, most of the data platform in the market boasts of in-memory only platform.
+									This to my mind is a limitation rather than a feature. Assembling lots of memory
+									makes the proposition very costly and then irrespective of whatever is the size of
+									memory, the system remains brittle in a sense that it will always require extra
+									memory in order to process another byte beyond memory size. Therefore, we must get
+									rid of the this “bug” and allow data to be overflowed to the disk. But going to disk
+									makes the processing too slow and this was the main reasons why other platform went
+									“in-memory” only approach.
+								</p>
+
+								<div class="image-wrapper">
+									<img class="center-image" src="img/image4.png" alt="">
+								</div>
+
+								<p class="text2">BangDB implements IO-Layer which sits on top of ext3/4 like file system
+									and allows db to use SSDs to enhance the performance even when it overflows from
+									memory to fs. Within a boundary, this mechanism allows us to go beyond memory and
+									degrade gracefully for long period of time until the system scales for higher load.
+									This especially very helpful for the scenarios where the system has to be designed
+									for peak load even though that peak exists for tiny part of the computing life
+									cycle. Further, it brings the needed flexibility and resilience when it comes to
+									dealing for burst of data supply and system will not fail for the need of more
+									memory but instead will handle the scenario gracefully and allow it to continue
+									function without break. Finally, with the use of SSD is a particular way, overall
+									cost gets reduced significantly since it no longer requires assembly of lots of
+									memory upfront</p>
+
+								<div class="image-wrapper">
+									<img class="center-image2" src="img/image5.png" alt="">
+								</div>
+
+								<p class="text2">
+									Therefore, BangDB is designed for all these trends and requirements and it has been
+									developed from ground up in C/C++ to align with the use cases, requirements and pain
+									points of the developers and users.
+									We are in process of adding lot more binaries in coming days and we will be very
+									aggressive in adding more capabilities and features. Since BangDB allows us to
+									control the data and the way we deal with it, same should get transferred to the
+									developers and users.
+								</p>
+
+							</div>
+
+							<div class="about-content-right">
+								<div class="content-wrapper">
+									<div class="right-title">
+										<h3>On this page</h3>
+									</div>
+									<div class="page-menu">
+										<div id="page-link" class="page-link">
+											<a class="page-href anchor" href="about-title">Document Database</a>
+										</div>
+										<div id="page-link" class="page-link">
+											<a class="page-href anchor" href="text2">Key Features</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+
+
+
+			</section>
+
+		</main>
+		<footer class="footer">
+	<div class="footer__content container">
+		
+	</div>
+</footer>
+	
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/script.min.js?v=1.0.1"></script>
+</div>
+</body>
+</html>
+	</div>
+	<script src="js/script.min.js"></script>
+</body>
+
+</html>
